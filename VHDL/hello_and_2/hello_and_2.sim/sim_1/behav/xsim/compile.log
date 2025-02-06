@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/erik/IES_codebase/programming_reliable_systems/VHDL/hello_and_2/hello_and_2.srcs/sources_1/new/Mux4to1Inst.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux4to1Inst'
+INFO: [VRFC 10-3107] analyzing entity 'tb_mux4to1Inst'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/erik/IES_codebase/programming_reliable_systems/VHDL/hello_and_2/hello_and_2.srcs/sources_1/new/double_mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'double_mux'
+INFO: [VRFC 10-3107] analyzing entity 'tb_double_mux'

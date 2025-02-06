@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RedundantALU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_RedundantALU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="81 ps"></ZoomEndTime>
+      <Cursor1Time time="80 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_RedundantALU/A" type="array">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RedundantALU/B" type="array">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RedundantALU/FaultLocation" type="array">
+      <obj_property name="ElementShortName">FaultLocation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FaultLocation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RedundantALU/Operation" type="array">
+      <obj_property name="ElementShortName">Operation[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Operation[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RedundantALU/Result1" type="array">
+      <obj_property name="ElementShortName">Result1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Result1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RedundantALU/Result2" type="array">
+      <obj_property name="ElementShortName">Result2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Result2[3:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_Max4Bit8To1_behav" "xil_defaultlib.tb_Max4Bit8To1" -log "elaborate.log" 

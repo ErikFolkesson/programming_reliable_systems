@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_ArithLogic_behav" "xil_defaultlib.tb_ArithLogic" -log "elaborate.log" 
