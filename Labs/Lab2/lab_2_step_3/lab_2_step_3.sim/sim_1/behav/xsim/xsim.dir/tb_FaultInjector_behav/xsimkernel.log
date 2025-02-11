@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_FaultInjector_behav/xsimk.exe -simmode gui -wdb tb_FaultInjector_behav.wdb -simrunnum 0 -socket 56552
+Running: xsim.dir/tb_FaultInjector_behav/xsimk.exe -simmode gui -wdb tb_FaultInjector_behav.wdb -simrunnum 0 -socket 56339
 Design successfully loaded
-Design Loading Memory Usage: 28264 KB (Peak: 28264 KB)
-Design Loading CPU Usage: 968 ms
+Design Loading Memory Usage: 29220 KB (Peak: 29220 KB)
+Design Loading CPU Usage: 1124 ms
 Simulation completed
-Simulation Memory Usage: 29256 KB (Peak: 29256 KB)
-Simulation CPU Usage: 1108 ms
+Simulation Memory Usage: 30148 KB (Peak: 30148 KB)
+Simulation CPU Usage: 1281 ms

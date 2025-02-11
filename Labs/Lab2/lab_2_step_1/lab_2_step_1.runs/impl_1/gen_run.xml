@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-3" LaunchTime="1738846605">
+  <File Type="ROUTE-PWR" Name="Max4Bit8To1_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Max4Bit8To1.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Max4Bit8To1_power_summary_routed.pb"/>
+  <File Type="OPT-RQA-PB" Name="Max4Bit8To1_rqa_opted.pb"/>
+  <File Type="REPORTS-TCL" Name="Max4Bit8To1_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Max4Bit8To1_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Max4Bit8To1_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Max4Bit8To1_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Max4Bit8To1_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Max4Bit8To1.hwdef"/>
+  <File Type="OPT-TIMING" Name="Max4Bit8To1_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Max4Bit8To1_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Max4Bit8To1_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Max4Bit8To1_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Max4Bit8To1_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Max4Bit8To1_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Max4Bit8To1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Max4Bit8To1_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Max4Bit8To1_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Max4Bit8To1_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Max4Bit8To1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Max4Bit8To1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Max4Bit8To1.bin"/>
+  <File Type="PLACE-TIMING" Name="Max4Bit8To1_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Max4Bit8To1_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Max4Bit8To1_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Max4Bit8To1_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Max4Bit8To1.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Max4Bit8To1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Max4Bit8To1_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Max4Bit8To1_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Max4Bit8To1.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Max4Bit8To1_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Max4Bit8To1_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Max4Bit8To1_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Max4Bit8To1_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Max4Bit8To1_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Max4Bit8To1_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Max4Bit8To1_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Max4Bit8To1_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Max4Bit8To1_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Max4Bit8To1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Max4Bit8To1_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Max4Bit8To1_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Max4Bit8To1_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Max4Bit8To1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Max4Bit8To1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Max4Bit8To1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Max4Bit8To1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Max4Bit8To1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Max4Bit8To1_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Max4Bit8To1_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Max4Bit8To1_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Max4Bit8To1_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Max4Bit8To1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="tb_Max4Bit8To1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="tb_Max4Bit8To1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="tb_Max4Bit8To1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="tb_Max4Bit8To1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Max4Bit8To1.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="tb_Max4Bit8To1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="tb_Max4Bit8To1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Max4Bit8To1.nky"/>
+  <File Type="BITSTR-BMM" Name="Max4Bit8To1_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Max4Bit8To1.mmi"/>
+  <File Type="PDI-FILE" Name="Max4Bit8To1.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Max4Bit8To1_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Max4Bit8To1_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Max4Bit8To1.rcfi"/>
+  <File Type="CFI_FILE" Name="Max4Bit8To1.cfi"/>
+  <File Type="RNPI_FILE" Name="Max4Bit8To1.rnpi"/>
+  <File Type="NPI_FILE" Name="Max4Bit8To1.npi"/>
+  <File Type="RBD_FILE" Name="Max4Bit8To1.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Max4Bit8To1.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Max4Bit8To1.sysdef"/>
+  <File Type="BG-BGN" Name="Max4Bit8To1.bgn"/>
+  <File Type="BG-DRC" Name="Max4Bit8To1.drc"/>
+  <File Type="RDI-RDI" Name="Max4Bit8To1.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Max4Bit8To1_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Max4Bit8To1_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Max4Bit8To1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Max4Bit8To1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
