@@ -1,0 +1,32 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_FaultyALUTesterTMR_1_behav xil_defaultlib.tb_FaultyALUTesterTMR_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture arch of entity xil_defaultlib.fault_location_generator [\fault_location_generator(fault_...]
+Compiling architecture behavioral of entity xil_defaultlib.FaultInjector [faultinjector_default]
+Compiling architecture behavioral of entity xil_defaultlib.ArithLogic [arithlogic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Max4Bit8To1 [max4bit8to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.FaultyALU [faultyalu_default]
+Compiling architecture arch of entity xil_defaultlib.fault_location_generator [\fault_location_generator(fault_...]
+Compiling architecture arch of entity xil_defaultlib.fault_location_generator [\fault_location_generator(fault_...]
+Compiling architecture arch1 of entity xil_defaultlib.mux2to1 [mux2to1_default]
+Compiling architecture dff of entity xil_defaultlib.Dflipflop [dflipflop_default]
+Compiling architecture lfsr_arch of entity xil_defaultlib.LFSR [lfsr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TMR [tmr_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comparator [comparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.InequalityCounter [inequalitycounter_default]
+Compiling architecture arch_faultyalutestertmr of entity xil_defaultlib.FaultyALUTesterTMR [\FaultyALUTesterTMR(fault_probab...]
+Compiling architecture tb_arch of entity xil_defaultlib.tb_faultyalutestertmr_1
+Built simulation snapshot tb_FaultyALUTesterTMR_1_behav

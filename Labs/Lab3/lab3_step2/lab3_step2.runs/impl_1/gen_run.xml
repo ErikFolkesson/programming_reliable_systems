@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-3" LaunchTime="1739356907">
+  <File Type="REPORTS-TCL" Name="n_bit_LFSR_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="tb_n_bit_LFSR_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="n_bit_LFSR.mmi"/>
+  <File Type="OPT-DRC" Name="tb_n_bit_LFSR_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="n_bit_LFSR.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="tb_n_bit_LFSR_route_status.pb"/>
+  <File Type="BG-BGN" Name="n_bit_LFSR.bgn"/>
+  <File Type="PLACE-UTIL" Name="tb_n_bit_LFSR_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="tb_n_bit_LFSR_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="tb_n_bit_LFSR_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="n_bit_LFSR.bin"/>
+  <File Type="PLACE-CTRL" Name="tb_n_bit_LFSR_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="tb_n_bit_LFSR_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="n_bit_LFSR_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="n_bit_LFSR.msk"/>
+  <File Type="BITSTR-RBT" Name="n_bit_LFSR.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="tb_n_bit_LFSR_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="tb_n_bit_LFSR_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="tb_n_bit_LFSR_route_status.rpt"/>
+  <File Type="PA-TCL" Name="n_bit_LFSR.tcl"/>
+  <File Type="ROUTE-PWR" Name="tb_n_bit_LFSR_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="tb_n_bit_LFSR_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="tb_n_bit_LFSR_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="tb_n_bit_LFSR_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="n_bit_LFSR.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="tb_n_bit_LFSR_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="tb_n_bit_LFSR_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="n_bit_LFSR.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="tb_n_bit_LFSR_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="tb_n_bit_LFSR_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="n_bit_LFSR.vdi"/>
+  <File Type="ROUTE-CLK" Name="tb_n_bit_LFSR_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="tb_n_bit_LFSR_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="tb_n_bit_LFSR_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="tb_n_bit_LFSR_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="tb_n_bit_LFSR_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="tb_n_bit_LFSR_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="tb_n_bit_LFSR_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="tb_n_bit_LFSR_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="tb_n_bit_LFSR_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="n_bit_LFSR.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="tb_n_bit_LFSR_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="n_bit_LFSR.nky"/>
+  <File Type="BITSTR-BMM" Name="n_bit_LFSR_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="n_bit_LFSR.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="n_bit_LFSR_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="n_bit_LFSR_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="n_bit_LFSR_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="n_bit_LFSR_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="n_bit_LFSR_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="n_bit_LFSR_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="n_bit_LFSR_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="n_bit_LFSR_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="n_bit_LFSR_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="n_bit_LFSR_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="n_bit_LFSR_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="n_bit_LFSR.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="n_bit_LFSR_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="n_bit_LFSR_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="n_bit_LFSR.rcfi"/>
+  <File Type="CFI_FILE" Name="n_bit_LFSR.cfi"/>
+  <File Type="RNPI_FILE" Name="n_bit_LFSR.rnpi"/>
+  <File Type="NPI_FILE" Name="n_bit_LFSR.npi"/>
+  <File Type="RBD_FILE" Name="n_bit_LFSR.rbd"/>
+  <File Type="ROUTE-RQS" Name="n_bit_LFSR_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="n_bit_LFSR_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/LFSR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="n_bit_LFSR"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

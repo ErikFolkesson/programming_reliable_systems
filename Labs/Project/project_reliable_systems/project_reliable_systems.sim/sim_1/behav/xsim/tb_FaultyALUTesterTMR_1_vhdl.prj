@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_reliable_systems.srcs/sources_1/new/step1.vhd" \
+"../../../../project_reliable_systems.srcs/sources_1/new/step2.vhd" \
+"../../../../project_reliable_systems.srcs/sources_1/new/step5.vhd" \
+"../../../../project_reliable_systems.srcs/sources_1/new/step7.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,258 @@
+
+*** Running vivado
+    with args -log DoubleMuxLFSR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DoubleMuxLFSR.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Feb 12 11:54:11 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source DoubleMuxLFSR.tcl -notrace
+
+*** Running vivado
+    with args -log DoubleMuxLFSR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DoubleMuxLFSR.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Feb 12 11:54:39 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source DoubleMuxLFSR.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/utils_1/imports/synth_1/double_mux_LFSR.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/utils_1/imports/synth_1/double_mux_LFSR.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top DoubleMuxLFSR -part xc7a35tcpg236-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8844
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 832.098 ; gain = 472.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DoubleMuxLFSR' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'NBitLFSR' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:76]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'Mux2to1' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:41' bound to instance 'MUX' of component 'Mux2to1' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'Mux2to1' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Mux2to1' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:50]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF_first' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'DFlipFlop' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:25]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:117]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:117]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:117]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:117]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:17' bound to instance 'DFF' of component 'DFlipFlop' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'NBitLFSR' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'DoubleMux' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'Mux4to1Inst' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'Mux2to1__parameterized0' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Mux2to1__parameterized0' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Mux4to1Inst' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'Mux4to1Exp' [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:152]
+INFO: [Synth 8-256] done synthesizing module 'Mux4to1Exp' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:152]
+INFO: [Synth 8-256] done synthesizing module 'DoubleMux' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:225]
+INFO: [Synth 8-256] done synthesizing module 'DoubleMuxLFSR' (0#1) [C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/sources_1/new/double_mux_LFSR.vhd:266]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-3
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.srcs/utils_1/imports/synth_1/double_mux_LFSR.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 937.629 ; gain = 578.402
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1093.227 ; gain = 734.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1109.078 ; gain = 749.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1109.223 ; gain = 749.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT4 |     1|
+|3     |LUT6 |     2|
+|4     |FDRE |     6|
+|5     |IBUF |     3|
+|6     |OBUF |     2|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------+------------------------+------+
+|      |Instance          |Module                  |Cells |
++------+------------------+------------------------+------+
+|1     |top               |                        |    15|
+|2     |  double_mux_inst |DoubleMux               |     2|
+|3     |    mux0          |Mux4to1Inst             |     1|
+|4     |      mux2        |Mux2to1__parameterized0 |     1|
+|5     |    mux1          |Mux4to1Exp              |     1|
+|6     |  n_bit_LFSR_inst |NBitLFSR                |     7|
+|7     |    DFF_first     |DFlipFlop               |     1|
+|8     |    \DFFs[0].DFF  |DFlipFlop_0             |     1|
+|9     |    \DFFs[1].DFF  |DFlipFlop_1             |     1|
+|10    |    \DFFs[2].DFF  |DFlipFlop_2             |     1|
+|11    |    \DFFs[3].DFF  |DFlipFlop_3             |     1|
+|12    |    \DFFs[4].DFF  |DFlipFlop_4             |     1|
+|13    |    MUX           |Mux2to1                 |     1|
++------+------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1309.180 ; gain = 949.953
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1324.270 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1434.738 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f30e52a9
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.738 ; gain = 1081.902
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1434.738 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Lab3/lab3_step3/lab3_step3.runs/synth_1/DoubleMuxLFSR.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file DoubleMuxLFSR_utilization_synth.rpt -pb DoubleMuxLFSR_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 12 11:55:21 2025...

@@ -41,6 +41,6 @@ begin
     
     clk <= not clk after 10ps;
 
-    D <= not D after 15ps;
+    D <= not D after 20ps;
 
 end tb_Dflipflop_arch;

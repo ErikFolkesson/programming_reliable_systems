@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_FaultyALUTester_behav" "xil_defaultlib.tb_FaultyALUTester" -log "elaborate.log" 

@@ -11,21 +11,21 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0 ps"></ZoomStartTime>
-      <ZoomEndTime time="151 ps"></ZoomEndTime>
-      <Cursor1Time time="150 ps"></Cursor1Time>
+      <ZoomEndTime time="200 ps"></ZoomEndTime>
+      <Cursor1Time time="200 ps"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="249"></NameColumnWidth>
-      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="3" />
-   <wvobject fp_name="/tb_Dflipflop/D" type="logic">
-      <obj_property name="ElementShortName">D</obj_property>
-      <obj_property name="ObjectShortName">D</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_Dflipflop/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Dflipflop/D" type="logic">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_Dflipflop/Q" type="logic">
       <obj_property name="ElementShortName">Q</obj_property>

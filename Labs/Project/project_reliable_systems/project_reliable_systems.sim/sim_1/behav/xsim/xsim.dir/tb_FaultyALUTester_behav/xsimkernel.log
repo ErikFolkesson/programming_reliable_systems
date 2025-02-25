@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_FaultyALUTester_behav/xsimk.exe -simmode gui -wdb tb_FaultyALUTester_behav.wdb -simrunnum 0 -socket 51644
+Design successfully loaded
+Design Loading Memory Usage: 28320 KB (Peak: 28320 KB)
+Design Loading CPU Usage: 827 ms
+Simulation completed
+Simulation Memory Usage: 37024 KB (Peak: 37024 KB)
+Simulation CPU Usage: 1625 ms

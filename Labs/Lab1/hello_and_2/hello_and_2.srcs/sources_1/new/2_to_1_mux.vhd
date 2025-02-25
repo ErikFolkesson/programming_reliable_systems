@@ -1,9 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-library work;
-use work.all;
-
 entity mux2to1 is
     port (
         i0     : in  std_logic;  -- Input 0 (LSB)
