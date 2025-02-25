@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_FaultyALUTesterTMR_02_behav/xsimk.exe -simmode gui -wdb tb_FaultyALUTesterTMR_02_behav.wdb -simrunnum 0 -socket 51682
+Running: xsim.dir/tb_FaultyALUTesterTMR_02_behav/xsimk.exe -simmode gui -wdb tb_FaultyALUTesterTMR_02_behav.wdb -simrunnum 0 -socket 50164
 Design successfully loaded
-Design Loading Memory Usage: 28360 KB (Peak: 28360 KB)
-Design Loading CPU Usage: 921 ms
+Design Loading Memory Usage: 28380 KB (Peak: 28380 KB)
+Design Loading CPU Usage: 780 ms
 Simulation completed
-Simulation Memory Usage: 37076 KB (Peak: 37076 KB)
-Simulation CPU Usage: 2109 ms
+Simulation Memory Usage: 37104 KB (Peak: 37104 KB)
+Simulation CPU Usage: 1859 ms

@@ -1,0 +1,23 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Project/project_reliable_systems/project_reliable_systems.srcs/sources_1/new/step1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counter'
+INFO: [VRFC 10-3107] analyzing entity 'tb_Counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Project/project_reliable_systems/project_reliable_systems.srcs/sources_1/new/step2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Comparator'
+INFO: [VRFC 10-3107] analyzing entity 'tb_Comparator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/erik/IES_codebase/programming_reliable_systems/Labs/Project/project_reliable_systems/project_reliable_systems.srcs/sources_1/new/step7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux2to1'
+INFO: [VRFC 10-3107] analyzing entity 'Dflipflop'
+INFO: [VRFC 10-3107] analyzing entity 'LFSR'
+INFO: [VRFC 10-3107] analyzing entity 'fault_location_generator'
+INFO: [VRFC 10-3107] analyzing entity 'Max4Bit8To1'
+INFO: [VRFC 10-3107] analyzing entity 'ArithLogic'
+INFO: [VRFC 10-3107] analyzing entity 'FaultInjector'
+INFO: [VRFC 10-3107] analyzing entity 'FaultyALU'
+INFO: [VRFC 10-3107] analyzing entity 'TMR'
+INFO: [VRFC 10-3107] analyzing entity 'Counter'
+INFO: [VRFC 10-3107] analyzing entity 'Comparator'
+INFO: [VRFC 10-3107] analyzing entity 'InequalityCounter'
+INFO: [VRFC 10-3107] analyzing entity 'FaultyALUTesterTMR'
+INFO: [VRFC 10-3107] analyzing entity 'tb_FaultyALUTesterTMR_02'
+INFO: [VRFC 10-3107] analyzing entity 'tb_FaultyALUTesterTMR_05'
+INFO: [VRFC 10-3107] analyzing entity 'tb_FaultyALUTesterTMR_1'

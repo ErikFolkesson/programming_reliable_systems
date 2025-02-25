@@ -17,7 +17,7 @@ end TMR;
 architecture Behavioral of TMR is
 
 begin
-process(tmr_in1,tmr_in2, tmr_in3)
+process(tmr_in1, tmr_in2, tmr_in3)
     begin
         if (tmr_in2 = tmr_in3) then
             tmr_out <= tmr_in2;
