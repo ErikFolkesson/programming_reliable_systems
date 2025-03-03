@@ -2,3 +2,6 @@ Running: xsim.dir/tb_FaultyALUTesterTMR_1_behav/xsimk.exe -simmode gui -wdb tb_F
 Design successfully loaded
 Design Loading Memory Usage: 28404 KB (Peak: 28404 KB)
 Design Loading CPU Usage: 1421 ms
+Simulation completed
+Simulation Memory Usage: 37116 KB (Peak: 37116 KB)
+Simulation CPU Usage: 3593 ms
